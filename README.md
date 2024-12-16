@@ -66,10 +66,10 @@
     <div class="container">
         <h1>Ask Your Question</h1>
         <!-- Input Field -->
-        <input type="text" id="questionInput" placeholder="Type your question here..." />
+        <input type="text" id="questionInput" placeholder="ur question here" />
         <br>
         <!-- Submit Button -->
-        <button onclick="submitQuestion()">Submit</button>
+        <button onclick="submitQuestion()">submit</button>
         <!-- Response Area -->
         <div class="response" id="responseText"></div>
     </div>
@@ -83,9 +83,9 @@
             const question = inputField.value.trim(); // Get user input and trim whitespace
 
             if (question) {
-                responseDiv.textContent = `You asked: "${question}"`; // Display the question
+                responseDiv.textContent = `u asked: "${question}"`; // Display the question
             } else {
-                alert("Please enter a valid question."); // Show an alert if input is empty
+                alert("please enter a valid question."); // Show an alert if input is empty
             }
         }
     </script>
